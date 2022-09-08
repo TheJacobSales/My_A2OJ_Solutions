@@ -7,7 +7,7 @@
  * If the comparison of position values is A <= B, then the time to travel between them is just B - A.
  * If the comparison results in A > B, then there is a need to loop around to the starting house.
  * So the equation to be use is n - A + B; where n is the total number of houses.
- * Continue this until the end
+ * Continue this until the end. Time complexity : O(m)
 **************************************/
 
 #include <bits\stdc++.h>
