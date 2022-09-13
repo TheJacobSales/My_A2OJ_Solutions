@@ -33,7 +33,8 @@ int main(){
         a.push_back(input);
     }
     //Check if all numbers in index k-1 to n are all the same
-    int index = k - 1, same = a[k - 1], counter = 0, begin = -1;
+    int index = k - 1, same = a[k - 1], counter = 0, begin = -1;//Begin is -1 since we need to include 0 as a possible answer
+    
     while(index < n){
         if(same != a[index]) counter = -1;// not the same, so save -1
         index++;
