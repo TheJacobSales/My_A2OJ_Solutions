@@ -1,5 +1,5 @@
 /*************************************
- * Problem:  				450B - Jzzhu and Sequences
+ * Problem:  					462B - Appleman and Card Game
  * Geneal Solution:
  * Most challenging part of the problem is reading it. To make it more simple, its to find the maximum amount of
  * point that can be chosen from the cards. Once done picking K cards out of N, then points are added up the 
